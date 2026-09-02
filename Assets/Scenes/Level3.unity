@@ -127,6 +127,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: thisObject
+      value: 
+      objectReference: {fileID: 90155564}
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: vortexObject
+      value: 
+      objectReference: {fileID: 300336112}
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: vortexTransform
+      value: 
+      objectReference: {fileID: 300336112}
     - target: {fileID: 5477682200633911370, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
       propertyPath: m_LocalScale.x
       value: 16.75832
@@ -184,6 +196,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+--- !u!4 &90155564 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5477682200633911370, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+  m_PrefabInstance: {fileID: 3847968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &211123020
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +480,10 @@ PrefabInstance:
       propertyPath: thisObject
       value: 
       objectReference: {fileID: 1297633981}
+    - target: {fileID: 8860296540442310183, guid: d6041ba884b48424880bda036c6cb70b, type: 3}
+      propertyPath: vortextObject
+      value: 
+      objectReference: {fileID: 300336112}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -780,6 +801,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: thisObject
+      value: 
+      objectReference: {fileID: 1700083438}
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: vortexObject
+      value: 
+      objectReference: {fileID: 300336112}
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: vortexTransform
+      value: 
+      objectReference: {fileID: 300336112}
     - target: {fileID: 5477682200633911370, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
       propertyPath: m_LocalScale.x
       value: 16.75832
@@ -1094,6 +1127,10 @@ PrefabInstance:
       propertyPath: thisObject
       value: 
       objectReference: {fileID: 1117487034}
+    - target: {fileID: 8860296540442310183, guid: d6041ba884b48424880bda036c6cb70b, type: 3}
+      propertyPath: vortextObject
+      value: 
+      objectReference: {fileID: 300336112}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1159,6 +1196,10 @@ PrefabInstance:
       propertyPath: thisObject
       value: 
       objectReference: {fileID: 790302688}
+    - target: {fileID: 8860296540442310183, guid: d6041ba884b48424880bda036c6cb70b, type: 3}
+      propertyPath: vortextObject
+      value: 
+      objectReference: {fileID: 300336112}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1308,6 +1349,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1171019443}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!4 &834060026 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5477682200633911370, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+  m_PrefabInstance: {fileID: 1446458184}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &864441646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,7 +1477,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1914,6 +1960,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: thisObject
+      value: 
+      objectReference: {fileID: 1556026646}
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: vortexObject
+      value: 
+      objectReference: {fileID: 300336112}
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: vortexTransform
+      value: 
+      objectReference: {fileID: 300336112}
     - target: {fileID: 5477682200633911370, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
       propertyPath: m_LocalScale.x
       value: 16.75832
@@ -1983,6 +2041,14 @@ PrefabInstance:
       propertyPath: thisObject
       value: 
       objectReference: {fileID: 1516421536}
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: vortexObject
+      value: 
+      objectReference: {fileID: 300336112}
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: vortexTransform
+      value: 
+      objectReference: {fileID: 300336112}
     - target: {fileID: 5477682200633911370, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
       propertyPath: m_LocalScale.x
       value: 16.75832
@@ -2048,6 +2114,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: thisObject
+      value: 
+      objectReference: {fileID: 834060026}
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: vortexObject
+      value: 
+      objectReference: {fileID: 300336112}
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: vortexTransform
+      value: 
+      objectReference: {fileID: 300336112}
     - target: {fileID: 5477682200633911370, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
       propertyPath: m_LocalScale.x
       value: 16.75832
@@ -2207,6 +2285,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5477682200633911370, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
   m_PrefabInstance: {fileID: 1445989755}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1556026646 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5477682200633911370, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+  m_PrefabInstance: {fileID: 1345586787}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1639113303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2219,6 +2302,10 @@ PrefabInstance:
       propertyPath: thisObject
       value: 
       objectReference: {fileID: 1463216530}
+    - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+      propertyPath: vortexObject
+      value: 
+      objectReference: {fileID: 300336112}
     - target: {fileID: 635341020876808280, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
       propertyPath: vortexTransform
       value: 
@@ -2411,6 +2498,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1171019443}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1700083438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5477682200633911370, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
+  m_PrefabInstance: {fileID: 521133260}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1915732353
 GameObject:
   m_ObjectHideFlags: 0
