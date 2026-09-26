@@ -36,7 +36,7 @@ public class ObstaclesScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (transform.position.x >= 0 && transform.position.y >= 0 && collision.gameObject.tag == "Vortex")
+        /*if (transform.position.x >= 0 && transform.position.y >= 0 && collision.gameObject.tag == "Vortex")
         {
 
             PositionObjectOnSphere();
@@ -54,7 +54,11 @@ public class ObstaclesScript : MonoBehaviour
         {
             PositionObjectOnSphere();
         }
-
+      */
+        if (collision.gameObject.CompareTag("Vortex"))
+        {
+            
+        }
     }
 
 

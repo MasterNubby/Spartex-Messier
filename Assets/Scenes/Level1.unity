@@ -307,6 +307,62 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5477682200633911370, guid: 9c7a91a087f9a5e43a4f798c76e5d3ed, type: 3}
   m_PrefabInstance: {fileID: 167579372}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &209523321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8661898375298265346, guid: 63d0c2cd8d435b24f81c0b5437516428, type: 3}
+  m_PrefabInstance: {fileID: 7667210035936563246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &209523325 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3291744569689508805, guid: 63d0c2cd8d435b24f81c0b5437516428, type: 3}
+  m_PrefabInstance: {fileID: 7667210035936563246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &209523326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209523321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1ad4e0ce322d049bc494fdf9f40866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstaclesScript
+  vortexTransform: {fileID: 300336112}
+  obstacleMoveSpeed: 1
+  rotationSpeed: 0
+  thisObject: {fileID: 209523325}
+  vortexObject: {fileID: 300336112}
+  sphereRadius: 20
+  sphereCenter: {x: 0, y: 0, z: 0}
+--- !u!50 &209523327
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209523321}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: b542117fc7082554b8979058fb25faa0, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &211123020
 GameObject:
   m_ObjectHideFlags: 0
@@ -3253,6 +3309,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3672198680531511846, guid: 63d0c2cd8d435b24f81c0b5437516428, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8661898375298265346, guid: 63d0c2cd8d435b24f81c0b5437516428, type: 3}
       propertyPath: m_Name
       value: '[Third Gen] Obstacle'
@@ -3260,7 +3320,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8661898375298265346, guid: 63d0c2cd8d435b24f81c0b5437516428, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 209523326}
+    - targetCorrespondingSourceObject: {fileID: 8661898375298265346, guid: 63d0c2cd8d435b24f81c0b5437516428, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 209523327}
   m_SourcePrefab: {fileID: 100100000, guid: 63d0c2cd8d435b24f81c0b5437516428, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
